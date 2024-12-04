@@ -1,3 +1,6 @@
+import {gridHTML} from './front page/grid-front-page.js';
+
+
 function togglePassword () {
   const passwordInput = document.querySelector('.js-input-password');
 
@@ -11,6 +14,3 @@ function togglePassword () {
 document.querySelector('.js-input-password').addEventListener('click', () => {
   togglePassword ();
 });
-
-
-console.log('hello');

@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #ffe5ec;
   font-family: Inter;
   color: black;
   overflow-x: hidden;
@@ -32,29 +32,7 @@ div, button, a, input {
 }
 
 .right-main {
-  margin-left: -4%;
-  margin-top: -2%;
-}
-
-.right-grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 5px;
-  width: 80%;
-  max-width: 600px;
-}
-
-.grid-item {
-  align-content: center;
-  align-items: center;
-  margin-left: 10px;
-  
-  
-}
-
-.grid-image {
-  width: 250px;
-  height: 450px;
+  margin-left: 30px;
 }
 
 
@@ -93,8 +71,9 @@ div, button, a, input {
   width: 300px;
   background-color: transparent;
   border: 1px solid white;
-  color: black
+  color: black;
   margin-bottom: 10px;
+  border: 1px solid black;
 }
 
 .input-name::placeholder, .input-email::placeholder, .input-password::placeholder {
@@ -108,7 +87,7 @@ div, button, a, input {
 .sign-up-button, .continue-email {
   width: 320px;
   padding: 10px;
-  background-color: #6e44ff;
+  background-color: #e5989b;
   border-radius: 20px;
   border: none;
   cursor: pointer;
@@ -116,7 +95,7 @@ div, button, a, input {
 }
 
 .continue-email {
-  background-color: white;
+  background-color: #FFCDB2;
   color: black;
 }
 
@@ -127,7 +106,7 @@ div, button, a, input {
 .already-email {
   padding-left: 65px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -135,5 +114,17 @@ div, button, a, input {
   font-weight: bold;
 }
 
+.right-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.flex-image-container {
+ margin-left: 10px;
+ margin-right: 10px;
+}
 
+.flex-image {
+  width: 1080px;
+}

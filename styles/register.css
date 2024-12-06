@@ -1,7 +1,7 @@
 body {
-  background-color: #240046;
+  background-color: white;
   font-family: Inter;
-  color: white;
+  color: black;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -13,7 +13,7 @@ body {
 
 div, button, a, input {
   font-family: Inter;
-  color: white;
+  color: black
 }
 
 .left-main {
@@ -49,10 +49,12 @@ div, button, a, input {
   align-items: center;
   margin-left: 10px;
   
+  
 }
 
 .grid-image {
   width: 250px;
+  height: 450px;
 }
 
 
@@ -91,12 +93,12 @@ div, button, a, input {
   width: 300px;
   background-color: transparent;
   border: 1px solid white;
-  color: white;
+  color: black
   margin-bottom: 10px;
 }
 
 .input-name::placeholder, .input-email::placeholder, .input-password::placeholder {
-  color: white;
+  color: black
 }
 
 .button-div {

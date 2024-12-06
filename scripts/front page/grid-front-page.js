@@ -1,4 +1,4 @@
-export const gridImages = [{
+/* export const gridImages = [{
   id: 'a3f7b2c9d1',
   image: 'https://images.pexels.com/photos/29367936/pexels-photo-29367936/free-photo-of-vibrant-red-protea-flower-on-blue-background.jpeg?auto=compress&cs=tinysrgb&w=600'
 }, {
@@ -56,4 +56,6 @@ export const gridImages = [{
 
   document.querySelector('.js-right-grid-container').innerHTML = gridHTML;
 
-  console.log()
+  console.log(); */
+
+  
